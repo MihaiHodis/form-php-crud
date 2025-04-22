@@ -57,7 +57,7 @@ if (isset($_GET['id'])) {
 </head>
 <body>
 <div class="container mt-5">
-    <h1>Form with Database Connection</h1>
+    <h1>Formular PHP cu conexiune la baza de date</h1>
     <p>Fill in the form below to insert data into the database.</p>
 
     <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
